@@ -6,7 +6,7 @@ $args = [
     'order_by' => 'ASC'
 ];
 $qurey = new WP_Query($args);
-if ($qurey->have_posts()) :
+if ($qurey->have_posts()) :g
      while ($qurey->have_posts() ) : $qurey->the_post();?>
    <section>
             <div class="content">
