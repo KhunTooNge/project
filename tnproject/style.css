@@ -1,0 +1,130 @@
+/*
+Theme Name: TooNge Theme
+Text Domain: TNtheme
+Version: 1.1
+Requires at least: 5.9
+Requires PHP: 7.4
+Description: My First Theme
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Theme URI: https://wordpress.org/themes/twentytwenty/
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+All files, unless otherwise stated, are released under the GNU General Public
+License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned
+with others.
+*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding: 0 20px 0 59px;
+}
+
+/* .header div {
+    margin-top: 30px;
+} */
+
+
+/* .nav {
+    margin-bottom: 30px;
+} */
+
+/* .nav table tr th {
+    padding: 0px 13px;
+}
+
+.nav table tr th a {
+    text-decoration: none;
+    color: black;
+    font-size: 14pt;
+} */
+.header_nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header_nav ul li {
+    list-style: none;
+    padding-right: 50px;
+}
+
+.header_nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 12pt;
+    vertical-align: top;
+}
+
+.header_nav ul li:hover a {
+    color: rgb(224, 48, 80);
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.header_nav ul li a span {
+    font-size: 8pt;
+}
+
+/* ------------------------------------------------------------------------ */
+.nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 0;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16pt;
+}
+
+.nav ul li:hover a {
+    color: rgb(224, 48, 80);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+i {
+    font-size: 20pt;
+    margin: 0 5px;
+}
+
+
+.fa-store {
+    margin: 0 auto;
+}
+
+.input-group {
+    max-width: 600px;
+}
+
+/* --------------------------------------Menu ------------------------------------- */
+
+.content {
+    position: absolute;
+    top: 350px;
+    left: 35%;
+    z-index: 2;
+}
+
+.content h3,
+h1,
+p {
+    color: rgb(229, 223, 223);
+}
+
+.img {
+    position: relative;
+    z-index: 1;
+    float: right;
+}

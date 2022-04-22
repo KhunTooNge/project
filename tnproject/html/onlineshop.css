@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    background-color: aqua;
+}
+
+.header div {
+    width: 30%;
+}
+
+
+.nav table tr th {
+    padding: 0px 13px;
+}
+
+.nav table tr th a {
+    text-decoration: none;
+    color: black;
+    font-size: 20pt;
+}
+
+.icon {
+    font-size: 20pt;
+    margin: 30px;
+}
